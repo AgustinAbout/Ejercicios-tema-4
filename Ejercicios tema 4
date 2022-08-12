@@ -1,0 +1,70 @@
+var numero = 5;
+
+if (numero < 0)
+{
+    alert ("El nuemro es negativo");
+}
+else 
+{
+    alert ("El nuemro es positivo");
+}
+
+//--------------------//
+
+let x = 0;
+while (x <= 3) {
+    console.log(`iteracion ${x}`);
+    x++;
+}
+console.log("Fin del while");
+
+
+//-------------//
+
+let y = 0;
+
+do {
+    console.log(`Interacion ${y}`);
+    y++
+
+} while (y <= 3);
+
+console.log("Fin de do while");
+
+//---------------//
+
+for (let i = 0; i <=3; i++) {
+    console.log(`Iteracion ${i}`);
+    
+}
+
+console.log("Fin del ciclo for");
+
+//-----------------//
+
+let estacion = 0;
+
+switch (estacion) {
+
+    case '0':
+    estacion = verano;
+    console.log(estacion);   
+        break;
+        
+    case '1':
+    estacion = Otoño;
+    console.log(estacion);
+        break;
+
+    case '2':
+    estacion = Invierno;
+    console.log(estacion);     
+        break;
+
+    case '3':
+    estacion = primavera;
+    console.log(estacion);
+
+    
+        break;
+}
